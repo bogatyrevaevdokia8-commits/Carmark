@@ -21,7 +21,7 @@ buttjn{
     margin: 0 auto;
 }
 .header-menu{
-    padding-top: 45px;
+    padding-top: 46px;
     padding-bottom: 132px;
     display: flex;
     justify-content: space-between;
@@ -44,9 +44,34 @@ menu>li:last-child{
     color: #000;    
 }
 .menu>li>a:hover{
-    font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.02em;
     color: #fa002c;    
+}
+.contacts{
+    display: flex;
+    align-items: center;
+}
+.social{
+    display: flex;
+    margin-right: 32px;
+}
+.social>a{
+    margin-right: 12px;
+}
+.social>a:last-child{
+    margin-right: 0;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+}
+.phone>a{
+    margin-bottom: 4px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+.phone>a:last-child{
+    margin-bottom: 0;
 }
