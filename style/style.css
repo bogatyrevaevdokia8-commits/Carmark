@@ -411,8 +411,12 @@ h1{
     border-radius: 0;
 }
 .budget{
-   background: #fefefe;
-   padding: 100px 0; 
+    background: #fefefe;
+    padding: 100px 0; 
+}
+.budget-car{
+    display: flex;
+    justify-content: space-between;
 }
 .budget-info>h2{
     font-family: "Inter", sans-serif;
@@ -445,8 +449,6 @@ h1{
 }
 .budget-img>img{
     border-radius: 20px;
-    margin-left: 670px;
-    margin-top: -304px;
 }
 .budget-info>h2>span{
     color: #f50e30;
